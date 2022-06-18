@@ -1,17 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
- <head lang="ru"> 
-    <!--Web Studio (Version 2.1) - Figma-->
-    Главная 
-</head>
+    <head> 
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Главная</title>
+    </head>
 
 <body>
+
     <!--заголовок-->
     <header>
-      
-        <nav class="navigation">
+            <nav class="navigation">
             <!-- Логотип-->
-            <h1 class = "logo">WebStudio</h1>
+            <a href = " " class = "logo">WebStudio</a>
             <!-- Ссылки Студия Портфолио Контакты-->
                 <ul class = "navigation-list">
                     <li lang="ru"><a href = "  "  class = "navigation-link">Студия</a></li>
@@ -32,48 +33,75 @@
     <main>
     <!--ЭФФЕКТИВНЫЕ РЕШЕНИЯ ДЛЯ ВАШЕГО БИЗНЕСА-->
     <section>
-    <h2  lang = "ru" class = "section-order"><b>ЭФФЕКТИВНЫЕ РЕШЕНИЯ ДЛЯ ВАШЕГО БИЗНЕСА</b></h2>
-    <button lang = "ru" type= "button" class = "section-button-order"> <h6>ЗАКАЗАТЬ УСЛУГУ</h6></button>
+    <h1  lang = "ru" class = "section-order">ЭФФЕКТИВНЫЕ РЕШЕНИЯ ДЛЯ ВАШЕГО БИЗНЕСА</h1>
+    <button lang = "ru" type= "button" class = "section-button-order"> ЗАКАЗАТЬ УСЛУГУ</button>
     </section>
 
     <!--четыре столбика-->
-    <section class = "container">
+    <section class = "container"><h2>Наши преимущества</h2>
                 <ul class = "container-list">
-                <li lang="ru"><h5 class = "container-list">ВНИМАНИЕ К ДЕТАЛЯМ</h5><h6>Идейные соображения, а также начало повседневной работы по формированию позиции</h6>
-                </h6></li>
-                <li lang="ru"><h5 class = "container-list">ПУНКТУАЛЬНОСТЬ</h5><h6>Задача организации, в особенности же раки и место обучения кадров влечет за собой</h6>
-                </li>
-                <li lang="ru"><h5  class = "container-list">ПЛАНИРОВАНИЕ</h5><h6>Равным образом консультация с широким активом в значительной степени обуславливает</h6>
-                </li>
-                <li lang = "ru"><h5 class="container-list">СОВРЕМЕННЫЕ ТЕХНОЛОГИИ</h5><h6>Значимость этих проблем настолько очевидна, что релизация плановых заданий</h6>
-                </li>
-            </ul>
+                    <li>
+                        <h3 class = "container-list">ВНИМАНИЕ К ДЕТАЛЯМ</h3>
+                        <h6>Идейные соображения, а также начало повседневной работы по формированию позиции</h6>
+                    </li>
+                    <li>
+                        <h3 class = "container-list">ПУНКТУАЛЬНОСТЬ</h3>
+                        <h6>Задача организации, в особенности же раки и место обучения кадров влечет за собой</h6>
+                    </li>
+                    <li>
+                        <h3  class = "container-list">ПЛАНИРОВАНИЕ</h3>
+                        <h3>Равным образом консультация с широким активом в значительной степени обуславливает</h3>
+                    </li>
+                    <li>
+                        <h3 class="container-list">СОВРЕМЕННЫЕ ТЕХНОЛОГИИ</h3>
+                        <h6>Значимость этих проблем настолько очевидна, что релизация плановых заданий</h6>
+                    </li>
+                </ul>
     </section>
 
+    <!-- 3 картинки-->
     <section class = "doing">
-    <h2 lang = "ru">Чем мы занимаемся</h2>
-        <img src = "./img/Comp1.jpg" alt = "Working at the Computer" class = "computer-img">
-        <img src = "./img/Comp2.jpg" alt = "Choosing images" class = "computer-img">
-        <img src = "./img/Comp3.jpg" alt = "Choosing colors" class = "computer-img">
+        <h2 lang = "ru">Чем мы занимаемся</h2>
+        <ul class="doing-image">
+            <li>
+                <img src = "./img/Comp1.jpg" alt = "Working at the Computer" width=300 class = "computer-img">
+            </li>
+            <li>
+                <img src = "./img/Comp2.jpg" alt = "Choosing images" width=300 class = "computer-img">
+            </li>
+            <li>
+                <img src = "./img/Comp3.jpg" alt = "Choosing colors" width=300 class = "computer-img">
+            </li>
+        </ul>
     </section>
      
     <section class = "command"><h2 lang = "ru" >Наша команда</h2>
-        <img src = "./img/Igor_Demianenko.jpg" alt = "Игорь Демьяненко" width=300><h4 class = "command-name">Игорь Демьяненко</h4><h6 class = "command-profession">Product Designer</h6>
-        <img src = "./img/Olga_Repina.jpg" alt = "Ольга Репина" width=300><h4 class = "command-name">Ольга Репина</h4><h6 class = "command-profession">Frontend Developer</h6>
-        <img src = "./img/Nikolay_Tarasov.jpg" alt = "Николай Тарасов"width=300><h4 class = "command-name">Николай Тарасов</h4><h6 class = "command-profession">Marketing</h6>
-        <img src = "./img/Mikhail_Ermakov.jpg" alt = "Михаил Ермаков"width=300><h4 class = "command-name"> Михаил Ермаков </h4><h6 class = "command-"profession"> UI Designer</h6>
+        <img src = "./img/Igor_Demianenko.jpg" alt = "Игорь Демьяненко" width=300>
+            <h3 class = "command-name">Игорь Демьяненко</h3>
+                <p class = "command-profession">Product Designer</p>
+        <img src = "./img/Olga_Repina.jpg" alt = "Ольга Репина" width=300>
+            <h3 class = "command-name">Ольга Репина</h3>
+                <p class = "command-profession">Frontend Developer</p>
+        <img src = "./img/Nikolay_Tarasov.jpg" alt = "Николай Тарасов" width=300>
+            <h3 class = "command-name">Николай Тарасов</h3>
+                <p class = "command-profession">Marketing</p>
+        <img src = "./img/Mikhail_Ermakov.jpg" alt = "Михаил Ермаков" width=300>
+            <h3 class = "command-name"> Михаил Ермаков </h3>
+                <p class = "command-profession"> UI Designer</p>
     </section>
     
     </main>
 
     <footer>
         <a href = " " class = "logo"><h3>WebStudio</h3></a>
-                <h6 class = "footer-address">Киев, пр-т Леси Украинки, 26</h6>
-        <!--Адрес телефон-->
-        <div class = "social">
-            <a href = " " class = "social-mail">info@studio.com</a><br>
-            <a href = " " class = "social-tel">+380961111111</a>
-        </div>
+        <address>
+            <ul class="footer-address">
+                <li><p class = "footer-address">Киев, пр-т Леси Украинки, 26</p></li>
+                <li><a href = " " class = "social-mail">info@studio.com</a></li>
+                <li><a href = " " class = "social-tel">+380961111111</a></li>
+            </ul>
+        </address>
     </footer>
+
 </body>
 </html>
